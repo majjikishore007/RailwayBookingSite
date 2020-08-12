@@ -1,0 +1,95 @@
+html {
+  background: #B2FEFA;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#0ED2F7), to(#B2FEFA));
+  background: linear-gradient(to right, #0ED2F7, #B2FEFA);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+}
+
+body header h1 {
+  color: white;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: left;
+}
+
+body nav {
+  background: -webkit-gradient(linear, left top, right top, from(#0ED2F7), to(#20817c));
+  background: linear-gradient(to right, #0ED2F7, #20817c);
+  padding: 10px 7px;
+  height: 10%;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+body .loginbox {
+  width: 320px;
+  height: 400px;
+  background: -webkit-gradient(linear, left top, right top, from(#0ED2F7), to(#20817c));
+  background: linear-gradient(to right, #0ED2F7, #20817c);
+  top: 65%;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 70PX 40PX;
+}
+
+body .avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+body h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+body .loginbox p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+}
+
+body .loginbox input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 50px;
+}
+
+body .loginbox input[type="email"], body input[type="password"] {
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+body .loginbox input[type="submit"] {
+  border: none;
+  padding: 0;
+  margin-left: 10px;
+  height: 40px;
+  outline-style: none;
+}
+
+body .loginbox input[type="submit"]:hover {
+  background-color: #019031;
+}
+/*# sourceMappingURL=userlogin.css.map */

@@ -1,0 +1,86 @@
+@import "background";
+
+html{
+    @include coverImage('/images/');
+    height: 100vh;
+}
+
+body{
+    header{
+        h1{
+            color: white;
+            font-size: 38px;
+            font-weight: bold;
+            text-align: left;
+        }
+    }
+    nav{
+        background: linear-gradient(to right, #0ED2F7, #20817c);
+        padding: 10px 7px;
+        height: 10%;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+    .loginbox{
+        width: 320px;
+    height: 400px;
+    background: linear-gradient(to right, #0ED2F7, #20817c);
+    top: 65%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70PX 40PX;
+  
+    }
+    .avatar{
+        width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    }
+    h1{
+        margin: 0;
+        padding: 0 0 20px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+    }
+    .loginbox p{
+        margin: 0;
+        padding: 0;
+       
+        font-weight: bold;
+        color: white;
+        font-size: 25px;
+      }
+      .loginbox input{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 50px;
+    }
+    .loginbox input[type="email"], input[type="password"]{
+        border: none;
+        outline: none;
+        font-size: 16px;
+    
+    }
+    
+    .loginbox input[type="submit"]{
+        border: none;
+        padding: 0;
+        margin-left: 10px;
+        height: 40px;
+        outline-style: none;
+    }
+    .loginbox input[type="submit"]:hover{
+        background-color: #019031;
+    }
+}

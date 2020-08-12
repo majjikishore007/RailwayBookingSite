@@ -1,0 +1,73 @@
+
+header{
+    h1{
+        color: white;
+        font-size: 38px;
+        font-weight: bold;
+        position: relative;
+        top: 0px;
+    }
+}
+.nav{
+    background: linear-gradient(to right, #63bdcf, #14c5ae);
+    padding: 10px 7px;
+    height: 10%;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+body{
+    .tc{
+        padding: 10px;
+        position: absolute;
+        margin: 20px;
+        top: 15%;
+        left: 10%;
+        color: #00CCCD;
+        text-transform: uppercase;
+        font-size: 40px;
+    }
+    section{
+        padding: 20px;
+        margin: 20px;
+        position: absolute;
+        top: 30%;
+        width: 60%;
+        height: 70%;
+       
+        left: 15%;
+    }
+    ul{
+        padding: 40px;
+        margin: 10px;
+    }
+    ul li{
+        padding: 18px;
+        display: block;
+       
+    }
+    .foo{
+        font-size: 30px;
+        text-transform: uppercase;
+        background-color: #0ABDE3;
+        color: #EAF0F1;
+    }
+    .btn{
+        padding: 10px;
+        outline: none;
+        border: none;
+        position: absolute;
+        left: 40%;
+        padding: 20px;
+        background-color: #FF3031;
+    }
+    .btn a{
+       padding: 30px;
+       text-decoration: none;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: white;
+    }
+}

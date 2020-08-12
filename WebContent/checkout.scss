@@ -1,0 +1,81 @@
+header{
+    h1{
+        color: white;
+        font-size: 38px;
+        font-weight: bold;
+        position: relative;
+        top: 0px;
+    }
+}
+.nav{
+    background: linear-gradient(to right, #63bdcf, #14c5ae);
+    padding: 10px 7px;
+    height: 10%;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+body{
+    .info{
+        padding: 50px;
+        margin: 20px;
+    }
+    ul{
+        padding: 30px;
+    }
+    nav li{
+        
+        display: inline-block;
+        font-size: 25px;
+        font-style: italic;
+    }
+     .bar{
+        padding: 18px;
+        margin: 10px;
+        background-color: #53E0BC;
+        border-radius: 10px;
+    }
+    .fare{
+        padding: 18px;
+        margin: 10px;
+        background-color: #FF3031;
+        border-radius: 10px;
+        color: white;
+    }
+    .booking{
+       position: relative;
+       
+       left: 100px;
+       padding: 10px;
+       margin: 10px;
+    }
+    .booking h1{
+        text-transform: uppercase;
+        padding: 20px;
+        color: #1287A5;
+
+    }
+    .foo{
+        padding: 15px;
+      border: none;
+        background-color: #4BCFFA;
+        border-radius: 10px;
+        outline: none;
+    }
+    button{
+        padding: 10px;
+        background-color: #E71C23;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+       .btn{
+           padding: 10px;
+           text-decoration: none;
+           text-transform: uppercase;
+          outline: none;
+           color: white;
+       }
+    }
+}
