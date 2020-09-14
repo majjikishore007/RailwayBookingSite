@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
-
+//api of railway 
 public class SendSms {
 	public static void main(String[] args) {
 		// Prepare Url
