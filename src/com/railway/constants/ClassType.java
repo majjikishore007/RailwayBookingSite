@@ -1,5 +1,5 @@
 package com.railway.constants;
-
+//this  class type  have not been used 
 public enum ClassType {
 	FIRST_CLASS("firstClass"), THIRD_AC("thirdAc"), SECOND_AC("secondAc"), FIRST_AC("firstAc"),
 	SLEEPER_CLASS("sleeperClass"), GENERAL("general");
