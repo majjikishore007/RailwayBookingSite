@@ -14,10 +14,6 @@
 </nav>
 <body>
     <h1 class="tc">your ticket  is confirmed</h1>
-   
-     
-     
-     
         <section>
          <c:forEach var="booking" items="${booking}">
             <ul>
