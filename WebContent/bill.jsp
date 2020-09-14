@@ -17,13 +17,13 @@
         <section>
          <c:forEach var="booking" items="${booking}">
             <ul>
-                <li class="foo">Pnr Number:${booking.pnr} </li>
-                <li class="foo">UserId: ${booking.userId}</li>
-                <li class="foo">Train Number: ${booking.trainName}</li>
-                 <li class="foo">Train Name : ${booking.trainNo}</li>
-                <li class="foo">Source: ${booking.from}</li>
-                <li class="foo">Destination:${booking.to}</li>
-                <li class="foo">Fare:${booking.price}</li>
+                <li class="foo">Pnr Number :${booking.pnr} </li>
+                <li class="foo">UserId : ${booking.userId}</li>
+                <li class="foo">Train Number : ${booking.trainName}</li>
+                 <li class="foo">Train Name  : ${booking.trainNo}</li>
+                <li class="foo">Source : ${booking.from}</li>
+                <li class="foo">Destination :${booking.to}</li>
+                <li class="foo">Fare  : Rs ${booking.price}</li>
             </ul>
          </c:forEach>   
         </section>
