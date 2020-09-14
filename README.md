@@ -5,4 +5,5 @@
  ->searching the avialable trains between two stations, 
  ->make booking,
  ->and cheek status.
- <img src="/Screen Shots/mkk5.jpg" class="avatar">
+ <img src="/ScreenShots/Screenshot (6).png" class="avatar" >
+ 
