@@ -1,17 +1,22 @@
-# projectRailway
- This a Railway booking site ,
- this site has functionality like 
- ->user login,
- ->searching the avialable trains between two stations, 
- ->make booking,
- ->and cheek status.
- i have used mysql databses ,and java html ,sass
- 
- 
- 
- 
- 
- 
+# Globetrotting
+
+## This a Railway ticket booking site
+
+### This site has functionality like :
+
+- user login
+- searching the avialable trains between two stations
+- make booking
+- Check Booking status.
+
+# TechStack:
+
+        java Servlets and jsp
+        mysql
+        Html
+        Css
+        Sass
+
  <img src="/ScreenShots/Screenshot (6).png" class="avatar" >
   <img src="/ScreenShots/Screenshot (7).png" class="avatar" >
  <img src="/ScreenShots/Screenshot (8).png" class="avatar" >
